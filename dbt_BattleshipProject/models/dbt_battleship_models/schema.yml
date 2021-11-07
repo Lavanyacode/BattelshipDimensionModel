@@ -1,0 +1,16 @@
+version: 2
+sources:
+ - name: dbt_battleship
+   database: myDatabase
+   schema: dbt_lavanya
+   tables:
+      - name: dbt_transaction
+      - name: dbt_game_header
+      - name: dbt_game_detail
+      - name: dbt_ship
+      - name: dbt_player
+      - name: dbt_target_ship_position
+    
+
+
+
